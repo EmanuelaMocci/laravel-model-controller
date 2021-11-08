@@ -1,0 +1,25 @@
+/* movie1 */
+h1{
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+.movies{
+    background-color: #5697DF;
+}
+.movies-container{
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .details{
+        width: calc(100% / 2 - 20px);
+        padding: 30px;
+        padding-left: 100px;
+        h3, h4{
+            color: white;
+            padding: 5px;
+        }
+    }
+}

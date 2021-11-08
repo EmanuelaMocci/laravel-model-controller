@@ -1,0 +1,28 @@
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(to right, #1464BB, #092444);
+    padding: 20px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    color: #F4F6F8;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.navbar i{
+    color: #F4F6F8;
+}
+.navbar img{
+    width: 100px;
+}
+/* navbar */
+
+/* movies */
